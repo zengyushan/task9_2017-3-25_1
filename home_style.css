@@ -1,0 +1,32 @@
+/* 轮播图结束 */
+.home-carousel {
+    /*border: solid;*/
+    line-height: 1rem;
+}
+
+.home-carousel-indicators-ol {
+    display: flex;
+    justify-content: center;
+}
+
+.home-carousel-indicators-ol li {
+    display: block;
+    float: left;
+}
+
+.home-carousel-caption {
+    height: 2.7rem;
+    font-size: .3rem;
+    text-align: right;
+}
+
+.home-carousel-caption-div1 {
+    font-size: .4rem;
+}
+
+.home-carousel-caption-div2 {
+    font-size: .5rem;
+}
+
+/* 轮播图结束 */
+

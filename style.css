@@ -1,0 +1,173 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 625%;
+    background-color: #fafafa;
+}
+
+.padding {
+    /*border: solid;*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.margin {
+    /*border: solid;*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* header */
+.container-whole{
+    width: 100%;
+}
+.custom-row{
+    display: flex;
+    align-items: center;
+}
+.custom-phone{
+    font-size: .14rem;
+    white-space: nowrap;/* 强制不换行 */
+}
+.contact{
+    margin-bottom: 0;
+    font-size: .14rem;
+    list-style: none;
+}
+.contact li{
+    float: right;
+}
+@media screen and (max-width: 767px){
+    .contact li{
+        display: none;
+    }
+}
+.custom-icon{
+    margin-right: .2rem;
+}
+/*.custom{*/
+    /*height: .3rem;*/
+/*}*/
+/*.custom-phone span{*/
+    /*float: left;*/
+
+    /*width: .6rem;*/
+    /*height: .3rem;*/
+    /*line-height: .3rem;*/
+
+    /*color: #29b078;*/
+    /*font-size: .14rem;*/
+/*}*/
+
+/*.custom ul {*/
+    /*float: right;*/
+/*}*/
+/*.custom ul li{*/
+    /*float: right;*/
+    /*list-style: none;*/
+/*}*/
+
+/*.custom-icon {*/
+    /*display: block;*/
+
+    /*margin-right: .2rem;*/
+
+    /*font-size: .14rem;*/
+/*}*/
+
+/*.nav-row {*/
+    /*background-color: #29b078;*/
+/*}*/
+/*.nav-col{*/
+    /*display: flex;*/
+    /*align-items: center;*/
+
+    /*height: .7rem;*/
+/*}*/
+/*.logo{*/
+    /*display: block;*/
+    /*float: left;*/
+    /*width: .9rem;*/
+    /*height: .4rem;*/
+/*}*/
+/*.nav-btn{*/
+    /*margin-left: auto;*/
+    /*margin-bottom: 0;*/
+/*}*/
+/*.nav-btn li{*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+
+    /*float: right;*/
+
+    /*height: 0.7rem;*/
+    /*!* display: block; *!*/
+    /*width: .6rem;*/
+
+    /*border: 3px solid transparent;*/
+    /*list-style: none;*/
+/*}*/
+/*.nav-btn li:hover{*/
+    /*!*border: 3px solid transparent;*!*/
+    /*border-bottom: 3px solid #ffffff;*/
+/*}*/
+/*.nav-choose-this{*/
+    /*border-bottom: 3px solid #ffffff;*/
+/*}*/
+/*.nav-btn li a{*/
+    /*display: block;*/
+    /*font-size: .16rem;*/
+    /*color: #ffffff;*/
+/*}*/
+
+/* footer */
+.other-page-row {
+    padding-top: .2rem;
+    background-color: #29b078;
+}
+
+.other-color, .other-color a {
+    color: #ffffff;
+}
+
+.other-page-title {
+    font-size: .16rem;
+}
+
+.other-page-link {
+    font-size: .14rem;
+}
+
+.other-page-link-left {
+    margin-top: .5rem;
+}
+
+.other-page-link-center {
+    margin-top: .15rem;
+}
+
+.weixin-word {
+    float: right;
+    margin-right: .2rem;
+
+    width: 1rem;
+    height: 1.25rem;
+
+    background: url(images/home_page_QRCode.png) no-repeat;
+    background-size: 1rem 1rem;
+    background-position: bottom;
+}
+
+.record {
+    text-align: center;
+
+    padding-top: .05rem;
+    padding-bottom: .05rem;
+
+    font-size: .12rem;
+    color: #ffffff;
+
+    background-color: #29b078;
+}
